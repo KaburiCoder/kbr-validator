@@ -24,4 +24,4 @@ function validPassword(password, type = 0 /* korea */) {
 export {
   validPassword
 };
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=password-validator.js.map

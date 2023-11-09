@@ -17,14 +17,12 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.ts
-var src_exports = {};
-__export(src_exports, {
+// src/validators/password-validator.ts
+var password_validator_exports = {};
+__export(password_validator_exports, {
   validPassword: () => validPassword
 });
-module.exports = __toCommonJS(src_exports);
-
-// src/validators/password-validator.ts
+module.exports = __toCommonJS(password_validator_exports);
 function validPassword(password, type = 0 /* korea */) {
   if (password.length < 8) {
     return {
@@ -47,4 +45,4 @@ function validPassword(password, type = 0 /* korea */) {
     validate: true
   };
 }
-//# sourceMappingURL=index.cjs.map
+//# sourceMappingURL=password-validator.cjs.map
