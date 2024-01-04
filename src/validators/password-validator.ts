@@ -16,7 +16,7 @@ export function validPassword(
 
   // 문자 종류 검사
   const englishRegexp = /[a-zA-Z]/;
-  const specialRegexp = /[!@#$%^&*]/;
+  const specialRegexp = /[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/g;
   const numberRegexp = /\d/;
   const regexpes = [englishRegexp, specialRegexp, numberRegexp];
   const count = regexpes.reduce((acc, regexp) => {
